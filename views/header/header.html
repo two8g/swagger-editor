@@ -39,7 +39,7 @@
         </li>
         <li>
           <a download="swagger.json" downloadUrl="{{jsonDownloadUrl}}"
-            href="{{jsonDownloadHref}}" tabindex="-1" track-event="file download json"><i class="fa fa-download"></i>&nbsp;<span>Download JSON</span></a>
+             href="{{jsonDownloadHref}}" tabindex="-1" track-event="file download json"><i class="fa fa-download"></i>&nbsp;<span>Download JSON</span></a>
         </li>
       </ul>
     </div>
@@ -78,6 +78,19 @@
             <i class="fa fa-wrench highlighted"></i>
             <span>Preferences&hellip;</span>
           </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--git-->
+    <div class="git dropdown" uib-dropdown>
+      <button id="git" class="btn btn-default" uib-dropdown-toggle>
+        <span>Git</span>
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" uib-dropdown-menu>
+        <li>
+          <a tabindex="-1" track-event="Git commit"><span>Git commit</span></a>
         </li>
       </ul>
     </div>
